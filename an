@@ -186,6 +186,67 @@ MainTab:AddButton({
     end
 })
 MainTab:AddButton({
+    Title = "Rubu Hub",
+    Description = "",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RubuHubV3.txt"))()
+    end
+})
+MainTab:AddButton({
+    Title = "Min Gaming",
+    Description = "Vietsub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAV"))()
+    end
+})
+MainTab:AddButton({
+    Title = "Teddy Hub",
+    Description = "Auto Hop Sever Boss",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
+    end
+})
+FruitTab:AddButton({
+    Title = "Panda Hub",
+    Description = "Auto Nhặt Fruit",
+    Callback = function()
+        SpeedTween = 350
+getgenv().RandomFruit = true
+getgenv().EspFruit = true
+getgenv().Team = "Pirate"
+getgenv().WebhookUrl = ''
+loadstring(game:HttpGet('https://raw.githubusercontent.com/VNT-UNIVERSAL/Panda-Hub/main/Release/fruitfarm.lua'))()
+    end
+})
+PlayerTab:AddButton({
+    Title = "Sera Hub",
+    Description = "Auto Bounty",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LumosSera/SeraHub/main/AutoBounty.lua"))()
+    end
+})
+MainTab:AddButton({
+    Title = "Speed Hub",
+    Description = "",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+    end
+})
+MainTab:AddButton({
+    Title = "Attack Hub",
+    Description = "",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KOBENFF/sdfd/refs/heads/main/Koatta.txt"))()
+    end
+})
+MainTab:AddButton({
+    Title = "Astral Hub",
+    Description = "",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+    end
+})
+MainTab:AddButton({
     Title = "HoHo Hub",
     Description = "Có Get Key",
     Callback = function()
@@ -251,16 +312,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 })
 PremiumTab:AddButton({
     Title = "Maru Hub",
-    Description = "Kèm Sẵn Key",
+    Description = "✅",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/AutoKick/refs/heads/main/TrollHaHa"))()
     end
 })
 PremiumTab:AddButton({
     Title = "Banana Hub",
-    Description = "Kèm Sẵn Key",
+    Description = "Key:✅",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/AutoKick/refs/heads/main/TrollHaHa"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/ScriptMaru/refs/heads/main/MaruHubPremium.Lua"))()
     end
 })
 KaitanTab:AddButton({
